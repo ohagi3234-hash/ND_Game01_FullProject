@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!normalBulletPrefab) return;
 
-        Vector3 spawn = transform.position + Vector3.up * 0.55f;
+        Vector3 spawn = transform.position + Vector3.right * 0.55f;
         Instantiate(normalBulletPrefab, spawn, Quaternion.identity);
     }
 }

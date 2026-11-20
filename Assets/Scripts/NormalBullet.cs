@@ -18,8 +18,8 @@ public class NormalBullet : MonoBehaviour
 
     void Update()
     {
-        // 上方向に直進させる
-        transform.position += Vector3.up * speed * Time.deltaTime;
+        // 右方向に直進させる
+        transform.position += Vector3.right * speed * Time.deltaTime;
 
         // 一定時間経過で自動削除
         lifetime -= Time.deltaTime;
